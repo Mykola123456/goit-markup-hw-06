@@ -810,6 +810,7 @@ padding-top: 100px;
         
         
 }
+/* ---------------модалка----------------------------------- */
 
 .backdrop {
         position: fixed;
@@ -834,6 +835,7 @@ padding-top: 100px;
         transform: translate(-50%, -50%) scaleX(1);
         transition: transform 250ms;
         padding: 24px;
+       
 }
 
 
@@ -841,7 +843,7 @@ padding-top: 100px;
         transform: translate(-50%, -50%) scaleX(0);
 }
 .modal-close {
-        position: absolute;
+    
         width: 24px;
         height: 24px;
         left: 24px;
@@ -854,6 +856,8 @@ padding-top: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 24px;
+        
       
 }
 .modal-close:hover,
@@ -879,6 +883,49 @@ padding-top: 100px;
 
 }
 
+.form-title {
+        
+        margin-bottom: 16px;
+        width: 360px;
+        height: 24px;
+        left: 540px;
+        top: 152px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.modal-label {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        color: #8E8F99;
+}
+.modal-imput {
+        position: relative;
+        height: 32px;
+        width: 100%;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 4px;
+        padding-left: 38px;
+        margin-top: 4px;
+}
+.modal-name {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        padding: 141px 350px 425px 40px;
+}
+.modal-coment {
+        
+}
         
 
         
