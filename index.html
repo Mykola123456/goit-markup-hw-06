@@ -459,26 +459,54 @@
           Leave your contacts and we will call you back
         </h3>
         <form class="form">
-          <label class="modal-label"
-            >Name<input type="text" class="modal-imput" name="user-name" /><svg
-              class="modal-name"
-            >
-              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-            </svg>
-          </label>
-          <label class="modal-label"
-            >Phone<input type="text" class="modal-imput" name="user-phone"
-          /></label>
-          <label class="modal-label"
-            >Email<input type="text" class="modal-imput" name="user-email"
-          /></label>
-          <label class="modal-label"
-            >Comment<input
-              type="text"
-              class="modal-imput"
-              placeholder="Text input"
-          /></label>
-          <button type="submit">Send</button>
+          <div class="modal-wrap">
+            <label class="modal-label" title="Your name">Name</label>
+
+            <div class="modal-text">
+              <input
+                type="text"
+                class="modal-imput"
+                name="user-name"
+                required
+              /><svg class="modal-name">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-wrap">
+            <label class="modal-label" title="Your number">Phone</label>
+
+            <div class="modal-text">
+              <input
+                type="tel"
+                class="modal-imput"
+                name="user-phone"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-wrap">
+            <label class="modal-label" title="Your email">Email</label>
+
+            <div class="modal-text">
+              <input
+                type="email"
+                class="modal-imput"
+                name="user-email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal-wrap">
+            <label class="modal-label">Comment</label>
+
+            <div class="modal-text"></div>
+          </div>
+
+          <button class="submit-button button" type="submit">Send</button>
         </form>
       </div>
     </div>

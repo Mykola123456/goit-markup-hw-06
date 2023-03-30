@@ -907,6 +907,7 @@ padding-top: 100px;
         line-height: 14px;
         letter-spacing: 0.04em;
         color: #8E8F99;
+        margin-bottom: 4px;
 }
 .modal-imput {
         position: relative;
@@ -915,17 +916,45 @@ padding-top: 100px;
         border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
         padding-left: 38px;
-        margin-top: 4px;
+        
 }
 .modal-name {
         position: absolute;
         width: 18px;
-        height: 18px;
-        padding: 141px 350px 425px 40px;
+        height: 24px;
+       top: 50%;
+       transform: translate(-50%);
+    left: 16px;
 }
 .modal-coment {
         
 }
+
+
+.submit-button {
+        width: 169px;
+        height: 56px;
+        font-family: var(--paragraph-title-font-family);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #4D5AE5;
+        border-radius: 4px;
+        display: block;
+        margin: 0 auto;
+        
+}
+
+.submit-button:is(:hover, :focus, :active) {
+
+        color: #FFFFFF;
+        background: var(--color-background);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+
+}
+
         
 
         
