@@ -810,6 +810,37 @@ padding-top: 100px;
         
         
 }
+.subscribe {
+        margin-left: 80px;
+        padding-top: 100px;
+}
+.subscribe-tittle {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 16px;
+}
+.subscribe-label {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        
+}
+.subscribe-box {
+       width: 264px;
+       height: 40px;
+        border: 1px solid #FFFFFF;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: #2E2F42;;
+        
+}
 /* ---------------модалка----------------------------------- */
 
 .backdrop {
@@ -924,6 +955,8 @@ position: relative;
         line-height: 1.17;
         letter-spacing: 0.04em;
         outline: transparent;
+        background-color: transparent;
+        transition: var(--speed-transform);
 }
 .modal-imput:focus {
         border-color: #4D5AE5;
@@ -939,6 +972,8 @@ position: relative;
         top: 50%;
         transform: translateY(-50%);
         left: 16px;
+        fill: #2E2F42;
+        transition: var(--speed-transform);
 }
 .modal-coment {
         
@@ -957,6 +992,7 @@ position: relative;
         border-radius: 4px;
         display: block;
         margin: 0 auto;
+        transition: var(--speed-transform);
         
 }
 
@@ -979,6 +1015,8 @@ position: relative;
         letter-spacing: 0.04em;
         resize: none;
         outline: transparent;
+       background-color:transparent;
+       transition: var(--speed-transform);
 }
 .modal-textarea:focus {
         
