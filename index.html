@@ -460,50 +460,64 @@
         </h3>
         <form class="form">
           <div class="modal-wrap">
-            <label class="modal-label" title="Your name">Name</label>
+            <label title="Your name"
+              ><span class="modal-label">Name</span>
 
-            <div class="modal-text">
-              <input
-                type="text"
-                class="modal-imput"
-                name="user-name"
-                required
-              /><svg class="modal-name">
-                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-              </svg>
-            </div>
+              <div class="modal-text">
+                <input
+                  type="text"
+                  class="modal-imput"
+                  name="user-name"
+                  required
+                /><svg class="modal-icon">
+                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                </svg>
+              </div>
+            </label>
           </div>
 
           <div class="modal-wrap">
-            <label class="modal-label" title="Your number">Phone</label>
+            <label title="Your number"
+              ><span class="modal-label">Phone</span>
 
-            <div class="modal-text">
-              <input
-                type="tel"
-                class="modal-imput"
-                name="user-phone"
-                required
-              />
-            </div>
+              <div class="modal-text">
+                <input
+                  type="tel"
+                  class="modal-imput"
+                  name="user-phone"
+                  required
+                />
+              </div>
+            </label>
           </div>
 
           <div class="modal-wrap">
-            <label class="modal-label" title="Your email">Email</label>
+            <label title="Your email"
+              ><span class="modal-label">Email</span>
 
-            <div class="modal-text">
-              <input
-                type="email"
-                class="modal-imput"
-                name="user-email"
-                required
-              />
-            </div>
+              <div class="modal-text">
+                <input
+                  type="email"
+                  class="modal-imput"
+                  name="user-email"
+                  required
+                />
+              </div>
+            </label>
           </div>
 
           <div class="modal-wrap">
-            <label class="modal-label">Comment</label>
-
-            <div class="modal-text"></div>
+            <label title="Your comment">
+              <span class="modal-label">Comment</span>
+              <div class="modal-text">
+                <textarea
+                  placeholder="Text input"
+                  class="modal-textarea"
+                  name="text input"
+                  id="text input"
+                ></textarea>
+              </div>
+            </label>
           </div>
 
           <button class="submit-button button" type="submit">Send</button>
