@@ -343,7 +343,7 @@
           </ul>
         </div>
       </section>
-      <!-- section 5---------------------------------------------------------- -->
+      <!-- section 5 -->
       <section class="customers">
         <div class="container">
           <h2 class="team-title">Customers</h2>
@@ -443,31 +443,29 @@
             </li>
           </ul>
         </div>
-        <form class="form-footer">
-          <div class="subscribe">
+        <div class="button-type">
+          <b class="subscribe-tittle">Subscribe</b>
+          <form class="form-footer">
             <label class="subscribe-label">
-              <h3 class="subscribe-tittle">Subscribe</h3>
               <input
                 id="user-email"
                 type="text"
                 name="user-email"
                 class="subscribe-box"
                 placeholder="E-mail"
-              />
-            </label>
-          </div>
-          <div class="button-twit">
+            /></label>
+
             <button class="footer-button" type="submit">
               <b class="button-text">Subscribe</b>
               <svg class="button-item">
                 <use href="./images/icons.svg#icon-Frame-3"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
-    <!-- modal-------------------------------------------------------- -->
+    <!-- modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" type="button" data-modal-close>
@@ -477,76 +475,66 @@
             ></use>
           </svg>
         </button>
-        <h3 class="form-title">
-          Leave your contacts and we will call you back
-        </h3>
+        <p class="form-title">Leave your contacts and we will call you back</p>
         <form class="form">
-          <div class="modal-wrap">
-            <label title="Your name"
-              ><span class="modal-label">Name</span>
+          <label class="modal-wrap" title="Your name"
+            ><span class="modal-label">Name</span></label
+          >
 
-              <div class="modal-text">
-                <input
-                  type="text"
-                  class="modal-input"
-                  name="user-name"
-                  id="user-name"
-                  required
-                /><svg class="modal-icon">
-                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-                </svg>
-              </div>
-            </label>
+          <div class="modal-text">
+            <input
+              type="text"
+              class="modal-input"
+              name="user-name"
+              id="user-name"
+              required
+            /><svg class="modal-icon">
+              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+            </svg>
           </div>
 
-          <div class="modal-wrap">
-            <label title="Your number"
-              ><span class="modal-label">Phone</span>
+          <label class="modal-wrap" title="Your number"
+            ><span class="modal-label">Phone</span></label
+          >
 
-              <div class="modal-text">
-                <input
-                  type="tel"
-                  class="modal-input"
-                  name="user-phone"
-                  id="user-phone"
-                  required
-                /><svg class="modal-icon">
-                  <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-                </svg>
-              </div>
-            </label>
+          <div class="modal-text">
+            <input
+              type="tel"
+              class="modal-input"
+              name="user-phone"
+              id="user-phone"
+              required
+            /><svg class="modal-icon">
+              <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+            </svg>
           </div>
 
-          <div class="modal-wrap">
-            <label title="Your email"
-              ><span class="modal-label">Email</span>
+          <label class="modal-wrap" title="Your email"
+            ><span class="modal-label">Email</span></label
+          >
 
-              <div class="modal-text">
-                <input
-                  type="email"
-                  class="modal-input"
-                  name="user-email"
-                  id="user-email"
-                  required
-                /><svg class="modal-icon">
-                  <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-                </svg>
-              </div>
-            </label>
+          <div class="modal-text">
+            <input
+              type="email"
+              class="modal-input"
+              name="user-mail"
+              id="user-mail"
+              required
+            /><svg class="modal-icon">
+              <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+            </svg>
           </div>
 
-          <div class="coment-wrap">
-            <label title="Your comment">
-              <span class="modal-label">Comment</span>
-              <div class="modal-text">
-                <textarea
-                  placeholder="Text input"
-                  class="modal-textarea"
-                  name="text input"
-                  id="text input"
-                ></textarea>
-              </div>
-            </label>
+          <label class="coment-wrap" title="Your comment">
+            <span class="modal-label">Comment</span></label
+          >
+          <div class="modal-text">
+            <textarea
+              placeholder="Text input"
+              class="modal-textarea"
+              name="text-input"
+              id="text-input"
+            ></textarea>
           </div>
 
           <div class="modal-field">

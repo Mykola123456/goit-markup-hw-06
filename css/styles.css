@@ -90,8 +90,7 @@ button, btn {
         align-items: center; 
         justify-content: space-between;
         background: #FFFFFF;
-        border-bottom: 1px solid #E7E9FC;
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+       
 }
 
 .header-list {
@@ -109,7 +108,8 @@ button, btn {
 }
 .header {
        
-        
+border-bottom: 1px solid #E7E9FC;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
         
 }
 
@@ -750,6 +750,9 @@ padding: 32px 16px;
 .footer {
 background: var(--second-title-color);
 display: flex;
+padding-top: 100px;
+padding-bottom: 100px;
+
 
 }
 .footer-web-icon {
@@ -758,16 +761,16 @@ display: flex;
 }
 
 .footer-container {
-padding-top: 100px;
-padding-bottom: 100px;
+
+
 
 }
 
 .footer-soc {
 
 margin-left: 120px;
-padding-bottom: 130px;
-padding-top: 100px;
+
+
 
 }
 
@@ -815,7 +818,7 @@ padding-top: 100px;
 }
 
 .form-footer {
-        display: flex;
+      display: flex;
 }
 
 .footer-soc-icon {
@@ -825,12 +828,9 @@ padding-top: 100px;
         
         
 }
-.subscribe {
-      display: flex;
-        margin-left: 80px;
-        
-}
+
 .subscribe-tittle {
+       display: flex;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
@@ -845,12 +845,13 @@ padding-top: 100px;
         font-weight: 400;
         font-size: 12px;
         line-height: 24px;
-        padding-top: 100px;
+       display: flex;
         align-items: center;
         letter-spacing: 0.04em;
-        
+        margin-right: 24px;
 }
 .subscribe-box {
+
        width: 264px;
        height: 40px;
         border: 1px solid #FFFFFF;
@@ -862,19 +863,21 @@ padding-top: 100px;
         line-height: 1.33;
         letter-spacing: 0.04em;
         color: #ffffff;
-        
+       
         
 }
 .subscribe-box::placeholder {
         color: #ffffff;
 }
-.button-twit {
-padding-top: 140px;
 
-}
+
 .footer-button:hover,
 .footer-button:focus {
         background: #31D0AA;
+}
+.button-type {
+    display: block;
+        margin-left: 80px;
 }
 
 .footer-button {
@@ -882,14 +885,14 @@ padding-top: 140px;
         height: 40px;
         border-radius: 4px;
         border: transparent;
-        display: flex;
+       display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 8px 24px;
         gap: 16px;
         cursor: pointer;
-        margin-left: 24px;
+        
         background-color: #4D5AE5;
         transition: var(--speed-transform);
 }
@@ -927,7 +930,7 @@ padding-top: 140px;
 
 .modal {
         width: 408px;
-        min-height: 576px;
+       max-height: 584px;
         left: 516px;
         
         background: #FCFCFC;
@@ -939,7 +942,7 @@ padding-top: 140px;
         transform: translate(-50%, -50%) scaleX(1);
         transition: transform 250ms;
         padding: 24px;
-       
+       padding-top: 72px;
 }
 
 
@@ -947,20 +950,20 @@ padding-top: 140px;
         transform: translate(-50%, -50%) scaleX(0);
 }
 .modal-close {
-    
+    position: absolute;
         width: 24px;
         height: 24px;
-        left: 24px;
+        top: 24px;
         right: 24px;
         border-radius: 50%;
         background: #E7E9FC;
         border: 1px solid rgba(0, 0, 0, 0.1);
         cursor: pointer;
-        margin-left: auto;
+     
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 24px;
+        
         
       
 }
@@ -990,10 +993,8 @@ padding-top: 140px;
 .form-title {
         
         margin-bottom: 16px;
-        width: 360px;
-        height: 24px;
-        left: 540px;
-        top: 152px;
+        
+       
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -1004,20 +1005,29 @@ padding-top: 140px;
         color: #2E2F42;
 }
 .modal-wrap {
-        margin-bottom: 8px;
+        margin-bottom: 4px;
+        display: inline-block;
+        width: 100%;
+        width: 34px;
+                height: 14px;
 }
 .coment-wrap {
-        margin-bottom: 16px;
+        margin-bottom: 4px;
+        display: inline-block;
+                width: 100%;
 }
 .modal-label {
+       
         display: inline-block;
         font-size: 12px;
         color: #8E8F99;
-        margin-bottom: 4px;
-        width: 100%;
+       
+        
+        
 }
 .modal-text {
 position: relative;
+margin-bottom: 8px;
 
 }
 .modal-input {
@@ -1067,7 +1077,7 @@ position: relative;
         margin: 0 auto;
         transition: var(--speed-transform);
         border: transparent;
-       margin-top: 24px;
+margin-top: 24px;
         
 }
 
@@ -1127,8 +1137,8 @@ position: relative;
         font-size: 12px;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        margin-top: 16px;
-        margin-bottom: 24px;
+       
+        
         align-items: center;
 }
 .chec-text span {
